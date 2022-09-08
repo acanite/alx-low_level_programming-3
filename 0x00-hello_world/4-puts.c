@@ -1,12 +1,12 @@
 #!/bin/bash
 #include <stdio.h>
 /**
- * main - entry point
+ * main - main block
  * return: 0
  */
 int main(void)
 {
-	printf("with proper grammer, but the outcome is a piece of art,\n");
+	puts("\"programming is like building a multilingual puzzle");
 	return (0);
 }
 

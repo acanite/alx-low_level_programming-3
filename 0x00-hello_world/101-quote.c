@@ -1,10 +1,10 @@
-#include <unistd.h>
+#include <stdio.h>
 /**
- * main - prints a standard error
- * Return: Always 1 (Success)
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korper, 2015-10-19\n", 19);
+	write(2, "and that piece of art is useful" - Dora Korpar, 2015-10-19\n", 61);
 	return (1);
 }

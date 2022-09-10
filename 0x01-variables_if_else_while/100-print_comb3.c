@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * maim - prints all possible combinations of two different digits, in ascending order, separated by a comma followed by a space
+ * maim - prints all possible combinations of two different digits
  *
  * Return: Always 0 (Success)
  */

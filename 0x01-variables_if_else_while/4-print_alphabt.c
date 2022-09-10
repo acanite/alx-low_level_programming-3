@@ -5,18 +5,21 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- */int main(void)
+ */
+int main(void)
+	char low, e, q;
+
+	e = 'e';
+	q = 'q';
+
+	for (low = 'a'; low <= 'z'; low++)
 {
-	int ch;
+	if (low != e && low != q)
+		putchar(low);
+}
+printf("\n");
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		if (ch != 'q' && ch != 'e')
-			putchar(ch);
-	}
-
-                       	putchar('\n');
-	return (0);
+return (0);
 }
 	
 

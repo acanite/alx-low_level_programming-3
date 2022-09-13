@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10 - No entry point
  *
- * Return: On success Nothing.
+ * Return - 0
  */
 
 void print_alphabet_10x(void)

@@ -2,6 +2,7 @@
 
 /**
  * _isalpha -check main
+ * @c: An integer input
  * Description: function that checks for alphabets
  * Return: 1 or 0. (Success!)
  */

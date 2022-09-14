@@ -1,16 +1,13 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * main - check main
- * Return: Always 0
+ * add - check main
+ * @a: An integer input
+ * @b: Aninteger input
+ * Return: sum of a and b
+ * Description: Add two numbers
  */
 
-int main(void)
+int add(int a, int b)
 {
-	int n;
-
-	n = add(89,9);
-	printf("%d\n",n);
-	return (0);
+	return (a + b);
 }

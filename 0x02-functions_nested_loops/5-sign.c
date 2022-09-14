@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
- *@n: An integer input
- *Description: put negative and positive sign
- *Return: print the sign of n
+ * print_sign - check main
+ * @n: An integer input
+ * Description: put negative and positive sign
+ * Return: print the sign of n
  */
 
 int print_sign(int n)

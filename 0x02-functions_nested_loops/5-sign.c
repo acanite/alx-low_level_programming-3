@@ -2,20 +2,21 @@
 #include "main.h"
 
 /**
- * @n: An integer input
- * Return: print the sign of n
+ *@n: An integer input
+ *Description: put negative and positive sign
+ *Return: print the sign of n
  */
 
 int print_sign(int n)
 {
 	if (n > 0)
 	{
-		_putchar('+');
+		_putchar ('+');
 		return (1);
 	}
-	else`
+	else
 	{
-		_putchar('-');
+		_putchar ('-');
 		return(-1);
 	}
 }

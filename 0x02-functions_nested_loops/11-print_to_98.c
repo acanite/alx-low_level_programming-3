@@ -2,10 +2,9 @@
 #include "main.h"
 
 /**
- * print_to_98 - check main
+ * print_to_98 - print numbers from n to 98
  * @n: an integer input
- * Description: print numbers 1 - 98
- * Return: Integers.
+ * Return: nothing
  */
 
 void print_to_98(int n)

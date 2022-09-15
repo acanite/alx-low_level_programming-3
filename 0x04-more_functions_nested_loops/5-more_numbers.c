@@ -26,6 +26,6 @@ void more_numbers(void)
 				_putchar((j % 10) + '0');
 			}
 		}
-		printf('\n');
+		printf("\n");
 	}
 }

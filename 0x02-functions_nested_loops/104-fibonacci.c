@@ -9,6 +9,8 @@
  */
 int main(void)
 {
+	int;
+	char;
 	unsigned long int i, j, k, j1, j2, k1, k2;
 	
 	j = 1;

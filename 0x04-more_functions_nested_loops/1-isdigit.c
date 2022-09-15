@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _isdigit - check main 
+ * _isdigit - check main
  * @c: an integer input
  * Description: checks for a digit
  * Return: Boolean

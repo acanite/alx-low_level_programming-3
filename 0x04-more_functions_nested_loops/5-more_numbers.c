@@ -1,9 +1,10 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * more_numbers - check main
- * Description: prints 10 times the numbers from 0 to 14
+ *
+ * Description: prints 10 times the numbers from 0 to 14,
+ *
  * Return: Nothing
  */
 

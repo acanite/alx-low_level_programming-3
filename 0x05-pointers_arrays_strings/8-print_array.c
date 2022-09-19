@@ -11,14 +11,11 @@
 void print_array(int *a, int *n)
 {
 	short c = 0;
-	int i;
 
-	i = n
-
-	while (i-- > 0)
+	while (n-- > 0)
 	{
 		printf("%d", a[c++]);
-		if (i != 0)
+		if (n != 0)
 			printf(", ");
 
 	}

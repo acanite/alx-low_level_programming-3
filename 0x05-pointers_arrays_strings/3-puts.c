@@ -8,5 +8,12 @@
 
 void _puts(char *str)
 {
-	write("%s\n", str);
+	int len;
+
+	for (i = 0; str[i] != '\0')
+	{
+		++i;
+	}
+
+	write(1, str, i);
 }

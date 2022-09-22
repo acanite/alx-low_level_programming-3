@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_number -checkk main
+ * print_number - check main
  * @n: integer params
- * Return: 0
+ * Return: Void
  */
 
 void print_number(int n)
@@ -13,14 +13,14 @@ void print_number(int n)
 
 	if (n < 0)
 	{
+		n1 = n;
 		_putchar('-');
-		n1 = -n;
 	}
 	else
 	{
 		n1 = n;
 	}
-	if (n1 / 10 != 0)
+	if (n1 / 10)
 	{
 		print_number(n1 / 10);
 	}

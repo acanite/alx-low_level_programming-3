@@ -1,31 +1,27 @@
 #include "main.h"
 
 /**
- * _strncat - two words
+ * *_strncat - two words
+ * Description: check main
  * @dest: pointer to char param
  * @src: pointer to char param
  * @n: int parameter
  * Return: *dest
  */
 
-char *strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
-	int m = 0;
-	int i;
+	int i, j = 0;
 
-	for (i = 0; i < 1000; i++)
-	{
-		if (dest[i] == '\0')
-		{
-			break;
-		}
-		m++;
-	}
+	while (dest[i] != '\0')
+		i++;
 
-	for (i = 0; src[i] != '\0' && i < n; i++)
+	while (src[j] != '\0' && n != j)
 	{
-		dest[m + i] = src[i];
+		*(dest + i) = src[j];
+		j++;
+		i++;
 	}
-	dest[m + i] = '\0';
+	*(dest + i) = '\0';
 	return (dest);
 }

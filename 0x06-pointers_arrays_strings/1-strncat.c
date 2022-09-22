@@ -16,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 	m = 0;
 	for (i = 0; i < 1000; i++)
 	{
-		if (dest[i] != '\0')
+		if (dest[i] == '\0')
 		{
 			break;
 		}

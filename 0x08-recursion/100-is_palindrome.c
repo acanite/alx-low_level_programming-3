@@ -18,7 +18,7 @@ int palind2(char *a, int l)
 
 /**
  * palind3 - compares string vs string reverse
- * a: string
+ * @a: string
  * @l: length
  *
  * Return: On success 1.

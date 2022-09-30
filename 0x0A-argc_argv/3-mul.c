@@ -15,7 +15,7 @@
 int main(int argc, char *argv[])
 {
 	int  i = argc - 1, j = i - 1, res;
-	
+
 	if (i == 2)
 	{
 		res = atoi(argv[i]) * atoi(argv[j]);

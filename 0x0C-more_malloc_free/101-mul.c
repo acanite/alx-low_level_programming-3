@@ -2,7 +2,7 @@
 
 #include <stdlib.h>
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - multiply 2 numbers as arguments

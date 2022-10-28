@@ -3,7 +3,7 @@
  * binary_to_uint - Converts a binary to an unsigned int
  * @b: pointer to a string of 0 and 1 characters
  * Return: if bis Null-0 otherwise
- * 	 the converted number.
+ * the converted number.
  */
 unsigned int binary_to_uint(const char *b)
 {
@@ -13,7 +13,7 @@ unsigned int binary_to_uint(const char *b)
 	if (b[len] == '\0')
 		return (0);
 
-	while((b[len] == '0') || (b[len] =='1'))
+	while ((b[len] == '0') || (b[len] == '1'))
 	{
 		num <<= 1;
 		num += b[len] - '0';
